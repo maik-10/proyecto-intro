@@ -5,6 +5,7 @@ body {
     padding: 0;
     /*imagen de fondo*/
     background: url ('img/cancha.jpeg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
 }
