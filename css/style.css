@@ -3,7 +3,8 @@ body {
     font-family: 'Roboto', sans-serif; /* Puedes probar otras fuentes como 'Montserrat' */
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0; /* Gris claro */
+    /*imagen de fondo*/
+    background: url ('img/cancha.jpeg') no-repeat center center fixed;
     color: #333;
     line-height: 1.6;
 }
