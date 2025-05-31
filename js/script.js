@@ -8,11 +8,11 @@ window.onload = function() {
 }};
 
 // Funcionalidad 2: Resaltar la tarjeta del jugador al que se le haga clic (y volver al estado original)
-const tajetasjudadores = document.querySelectorAll('.tarjeta-jugador');
+const tarjetasjugadores = document.querySelectorAll('.tarjeta-jugador');
 
-tajetasjudadores.forEach(card => {
+tarjetasjugadores.forEach(card => {
     card.addEventListener('click', function() {
-        tajetasjudadores.forEach(c => c.classList.remove('active'));
+        tarjetasjugadores.forEach(c => c.classList.remove('active'));
         this.classList.add('active');
 
     });
