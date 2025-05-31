@@ -31,7 +31,6 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex; 
-    /* Para centrar los elementos del menú */
     justify-content: center;
     margin-top: 15px;
 }
@@ -49,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffc107; /* Amarillo brillante */
+    color: #ffc107;
     text-decoration: underline;
 }
 
@@ -86,7 +85,7 @@ img {
 /* Botones Generales */
 .boton {
     display: inline-block;
-    background-color: #007bff; /* Azul estándar */
+    background-color: #007bff;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -98,12 +97,12 @@ img {
 
 .boton:hover {
     background-color: #0056b3;
-    transform: translateY(-2px); /* Pequeño efecto al pasar el mouse */
+    transform: translateY(-2px);
 }
 
 /* Botones "Saber más" para las tarjetas */
 .boton-mas {
-    background-color: #FFA500; /* Verde */
+    background-color: #FFA500;
 }
 
 .boton-mas:hover {
@@ -111,7 +110,7 @@ img {
 }
 
 
-/* Tarjetas de Jugadores (para jugadores.html) */
+/* Tarjetas de Jugadores (jugadores.html) */
 .tarjeta-jugador {
     border: 1px solid #ddd;
     padding: 25px;
@@ -119,32 +118,22 @@ img {
     border-radius: 10px;
     text-align: center;
     background-color: #fcfcfc;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto al pasar el mouse */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tarjeta-jugador:hover {
-    transform: translateY(-5px); /* Levantar la tarjeta */
+    transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .tarjeta-jugador h2 {
-    color: #001f3f; /* Azul oscuro NBA */
+    color: #001f3f;
     margin-top: 0;
     font-size: 1.8rem;
 }
 
 .tarjeta-jugador img {
-    border: 3px solid #ffc107; /* Borde amarillo alrededor de la foto */
-}
-
-/* Pie de Página */
-footer {
-    text-align: center;
-    padding: 25px;
-    background-color: #333;
-    color: white;
-    margin-top: 40px;
-    border-top: 5px solid #ffc107; /* Línea decorativa */
+    border: 3px solid #ffc107;
 }
 
 .volver-inicio {
@@ -152,10 +141,10 @@ footer {
     margin-top: 30px;
 }
 
-/* Estilo para la tarjeta activa (cuando se hace clic) */
+/* Estilo para la tarjeta cuando se hace clic */
 .tarjeta-jugador.active {
-    border: 3px solid #007bff; /* Borde azul más grueso */
-    background-color: #e6f7ff; /* Fondo más claro */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25); /* Sombra más pronunciada */
-    transform: translateY(-8px); /* Levantar aún más */
+    border: 3px solid #007bff; 
+    background-color: #e6f7ff; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25); 
+    transform: translateY(-8px);
 }
