@@ -60,7 +60,7 @@ main {
     padding: 30px;
     max-width: 1000px; /* Un poco más ancho para las tarjetas */
     margin: 30px auto;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
