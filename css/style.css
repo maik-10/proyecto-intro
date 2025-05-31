@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Puedes probar otras fuentes como 'Montserrat' */
     margin: 0;
     padding: 0;
-    background-color: url('img/cancha.jpeg'); /* Gris claro */
+    background-color: url('maik-10/proyecto-intro/img/cancha.jpeg'); /* Gris claro */
     color: #333;
     line-height: 1.6;
 }
