@@ -4,7 +4,7 @@
 window.onload = function() {
     console.log("¡La página 'NBA Historias inspiradoras' ha cargado completamente!");
     alert("¡Bienvenido/a a 'NBA historias inspiradoras'! Prepárate para conocer historias que trascienden el baloncesto.");
-    
+};    
 // Funcionalidad 2: Resaltar la tarjeta del jugador al que se le haga clic
 const tarjetasjugadores = document.querySelectorAll('.tarjeta-jugador');
 
