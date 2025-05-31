@@ -103,11 +103,11 @@ img {
 
 /* Botones "Saber más" para las tarjetas */
 .boton-mas {
-    background-color: #28a745; /* Verde */
+    background-color: #FFA500; /* Verde */
 }
 
 .boton-mas:hover {
-    background-color: #218838;
+    background-color: #FFA420;
 }
 
 
