@@ -59,18 +59,18 @@ main {
     padding: 30px;
     max-width: 1000px;
     margin: 30px auto;
-    background-color: #333;
+    background-color: white;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
-section {
+div {
     margin-bottom: 40px;
     padding: 20px;
     border-bottom: 1px solid #eee;
 }
 
-section:last-of-type {
+div:last-of-type {
     border-bottom: none;
 }
 
