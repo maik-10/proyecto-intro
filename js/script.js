@@ -3,8 +3,8 @@
 // Funcionalidad 1: Mensaje de bienvenida personalizado al cargar la página
 window.onload = function() {
     console.log("¡La página 'NBA Inspiradora' ha cargado completamente!");
-    alert("¡Bienvenido/a a 'NBA Inspiradora'! Prepárate para conocer historias que trascienden el baloncesto.");
-
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
+        alert("¡Bienvenido/a a 'NBA Inspiradora'! Prepárate para conocer historias que trascienden el baloncesto.");
     // Puedes hacer que esta alerta solo aparezca en la página de inicio
     // if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
     //     alert("¡Bienvenido/a a 'NBA Inspiradora'! Prepárate para conocer historias que trascienden el baloncesto.");
