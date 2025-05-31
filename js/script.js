@@ -5,8 +5,8 @@ window.onload = function() {
     console.log("¡La página 'NBA Inspiradora' ha cargado completamente!");
     if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) { 
         alert("¡Bienvenido/a a 'NBA Inspiradora'! Prepárate para conocer historias que trascienden el baloncesto.");
-}};
-
+    };
+};
 // Funcionalidad 2: Resaltar la tarjeta del jugador al que se le haga clic (y volver al estado original)
 const tarjetasjugadores = document.querySelectorAll('.tarjeta-jugador');
 
