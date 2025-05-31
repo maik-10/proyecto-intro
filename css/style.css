@@ -1,14 +1,14 @@
 /* Estilos Generales */
 body {
-    font-family: 'Roboto', sans-serif; /* Puedes probar otras fuentes como 'Montserrat' */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: url('maik-10/proyecto-intro/img/cancha.jpeg'); /* Gris claro */
+    background-color: url('img/cancha.jpeg');
     color: #333;
     line-height: 1.6;
 }
 
-/* Importar una fuente de Google Fonts (opcional) */
+/* Importar una fuente de Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
@@ -31,7 +31,8 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; /* Para centrar los elementos del menú */
+    display: flex; 
+    /* Para centrar los elementos del menú */
     justify-content: center;
     margin-top: 15px;
 }
@@ -56,9 +57,9 @@ nav ul li a:hover {
 /* Contenido Principal */
 main {
     padding: 30px;
-    max-width: 1000px; /* Un poco más ancho para las tarjetas */
+    max-width: 1000px;
     margin: 30px auto;
-    background-color: white;
+    background-color: #333;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
